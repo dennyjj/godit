@@ -7,31 +7,31 @@
     text-align: center;
 }
 
-.blockPadding {
+.block-padding {
     padding: 90px 50px;
 }
 
-.contactMethod {
+.contact-method {
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.scrollBtn {
+.scroll-btn {
     padding: 15px 20px;
     border-radius: 30px;
 }
 
-.serviceBlock {
+.service-block {
     margin-bottom: 40px;
 }
 
-.serviceTitle {
+.service-title {
     margin: 20px 15px ;
 }
 
-.serviceDescription {
+.service-description {
     margin: 0 auto;
     width: 420px;
 }
