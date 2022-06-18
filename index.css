@@ -6,3 +6,32 @@
 * {
     text-align: center;
 }
+
+.blockPadding {
+    padding: 90px 50px;
+}
+
+.contactMethod {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.scrollBtn {
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+
+.serviceBlock {
+    margin-bottom: 40px;
+}
+
+.serviceTitle {
+    margin: 20px 15px ;
+}
+
+.serviceDescription {
+    margin: 0 auto;
+    width: 420px;
+}
