@@ -1,106 +1,157 @@
 .icon {
-	width: 40px;
-	height: 32px;
+    width: 40px;
+    height: 32px;
 }
 
 * {
-	text-align: center;
+    text-align: center;
+}
+
+.avatarContainer {
+    display: flex;
+    box-sizing: border-box;
+    background: #f1f2f3;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.avatarContainer img {
+    height: 100px;
+    width: 100px;
+}
+
+.avatarContainer div {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    top: 0;
+    transform: rotateY(.5turn) translateZ(1px);
+    font-size: 4rem;
+    background: rgba(243, 245, 251, .95);
+    text-align: center;
+    opacity: .6;
+    transition: opacity 1s .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatarContainer:hover {
+    transform: rotateY(.5turn);
+}
+
+.avatarContainer:hover div {
+    opacity: 1;
+}
+
+.memberName {
+    color: #f1f2f3;
+    font-size: 16px;
+    padding-top: 10px;
 }
 
 .block-padding {
-	padding: 90px 50px;
+    padding: 90px 50px;
 }
 
 .contact-method {
-	margin-top: 30px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .scroll-btn {
-	padding: 15px 20px;
-	border-radius: 30px;
+    padding: 15px 20px;
+    border-radius: 30px;
 }
 
 .service-block {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .service-title {
-	margin: 20px 15px;
+    margin: 20px 15px;
 }
 
 .service-description {
-	margin: 0 auto;
-	width: 420px;
+    margin: 0 auto;
+    width: 420px;
 }
 
 .bg-primary {
-	position: relative;
-	width: 100%;
-	min-height: auto;
-	text-align: center;
-	background-image: url('img/tech.jpg');
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-image: url('img/tech.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .bg-success {
-	position: relative;
-	width: 100%;
-	min-height: auto;
-	text-align: center;
-	background-image: url('img/success1.jpg');
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-image: url('img/success1.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .bg-primary1 {
-	position: relative;
-	width: 100%;
-	min-height: auto;
-	text-align: center;
-	background-image: url('img/service.jpg');
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-image: url('img/service.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .bg-light {
-	position: relative;
-	width: 100%;
-	min-height: auto;
-	text-align: center;
-	background-image: url('img/techPeople.jpg');
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-image: url('img/techPeople.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .bg-light1 {
-	position: relative;
-	width: 100%;
-	min-height: auto;
-	text-align: center;
-	background-image: url('img/success1.jpg');
-	background-position: center;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-image: url('img/success1.jpg');
+    background-position: center;
 }
 
 .custom-toggler .navbar-toggler-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .custom-toggler.navbar-toggler {
-	border-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
 }
