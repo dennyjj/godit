@@ -35,3 +35,65 @@
     margin: 0 auto;
     width: 420px;
 }
+
+.bg-primary {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-image: url("img/tech.jpg");
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.bg-success {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-image: url("img/success1.jpg");
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.bg-primary1 {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-image: url("img/service.jpg");
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.bg-light {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-image: url("img/techPeople.jpg");
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.bg-light1 {
+
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-image: url("img/success1.jpg");
+    background-position: center;
+}
