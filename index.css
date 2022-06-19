@@ -1,99 +1,106 @@
 .icon {
-    width: 40px;
-    height: 32px;
+	width: 40px;
+	height: 32px;
 }
 
 * {
-    text-align: center;
+	text-align: center;
 }
 
 .block-padding {
-    padding: 90px 50px;
+	padding: 90px 50px;
 }
 
 .contact-method {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .scroll-btn {
-    padding: 15px 20px;
-    border-radius: 30px;
+	padding: 15px 20px;
+	border-radius: 30px;
 }
 
 .service-block {
-    margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 .service-title {
-    margin: 20px 15px ;
+	margin: 20px 15px;
 }
 
 .service-description {
-    margin: 0 auto;
-    width: 420px;
+	margin: 0 auto;
+	width: 420px;
 }
 
 .bg-primary {
-    position: relative;
-    width: 100%;
-    min-height: auto;
-    text-align: center;
-    background-image: url("img/tech.jpg");
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+	position: relative;
+	width: 100%;
+	min-height: auto;
+	text-align: center;
+	background-image: url('img/tech.jpg');
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
 .bg-success {
-    position: relative;
-    width: 100%;
-    min-height: auto;
-    text-align: center;
-    background-image: url("img/success1.jpg");
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+	position: relative;
+	width: 100%;
+	min-height: auto;
+	text-align: center;
+	background-image: url('img/success1.jpg');
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
 .bg-primary1 {
-    position: relative;
-    width: 100%;
-    min-height: auto;
-    text-align: center;
-    background-image: url("img/service.jpg");
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+	position: relative;
+	width: 100%;
+	min-height: auto;
+	text-align: center;
+	background-image: url('img/service.jpg');
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
 .bg-light {
-    position: relative;
-    width: 100%;
-    min-height: auto;
-    text-align: center;
-    background-image: url("img/techPeople.jpg");
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+	position: relative;
+	width: 100%;
+	min-height: auto;
+	text-align: center;
+	background-image: url('img/techPeople.jpg');
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
 .bg-light1 {
+	position: relative;
+	width: 100%;
+	min-height: auto;
+	text-align: center;
+	background-image: url('img/success1.jpg');
+	background-position: center;
+}
 
-    position: relative;
-    width: 100%;
-    min-height: auto;
-    text-align: center;
-    background-image: url("img/success1.jpg");
-    background-position: center;
+.custom-toggler .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+	border-color: rgb(255, 255, 255);
 }
