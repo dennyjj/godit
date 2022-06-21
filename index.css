@@ -10,6 +10,18 @@ hr {
     opacity: 1;
 }
 
+#intro {
+    background: #f1f2f3;
+}
+
+#portfolio-banner {
+    background: rgb(111, 111, 165);
+}
+
+#services {
+    background: rgb(87, 87, 143);
+}
+
 .avatar-container {
     display: flex;
     box-sizing: border-box;
@@ -56,7 +68,7 @@ hr {
 }
 
 .block-padding {
-    padding: 90px 50px;
+    padding: 90px 90px;
 }
 
 .contact-method {
@@ -109,18 +121,14 @@ hr {
     transition: all .35s;
 }
 
-.portfolio-banner {
-    background: rgb(111, 111, 165);
-    padding: 30px 60px;
-}
-
 .scroll-btn {
     padding: 15px 20px;
     border-radius: 30px;
+    margin-top: 20px;
 }
 
 .service-block {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .service-title {
