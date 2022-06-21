@@ -1,13 +1,8 @@
-.icon {
-    width: 40px;
-    height: 32px;
-}
-
 * {
     text-align: center;
 }
 
-.avatarContainer {
+.avatar-container {
     display: flex;
     box-sizing: border-box;
     background: #f1f2f3;
@@ -22,12 +17,12 @@
     transition: transform 1s;
 }
 
-.avatarContainer img {
+.avatar-container img {
     height: 100px;
     width: 100px;
 }
 
-.avatarContainer div {
+.avatar-container div {
     position: absolute;
     width: 140px;
     height: 140px;
@@ -44,38 +39,54 @@
     align-items: center;
 }
 
-.avatarContainer:hover {
+.avatar-container:hover {
     transform: rotateY(.5turn);
 }
 
-.avatarContainer:hover div {
+.avatar-container:hover div {
     opacity: 1;
 }
 
-.memberName {
+.block-padding {
+    padding: 90px 50px;
+}
+
+.contact-method {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    width: 40px;
+    height: 32px;
+}
+
+.member-name {
     color: #f1f2f3;
     font-size: 16px;
     padding-top: 10px;
 }
 
-.portfolioBox {
+.portfolio-box {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 650px;
 }
 
-.portfolioBox:hover .portfolioBoxCaption {
+.portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
 }
 
-.portfolioBox img {
+.portfolio-box img {
     display: block;
     max-width: 100%;
     height: auto;
 }
 
-.portfolioBoxCaption {
+.portfolio-box-caption {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,17 +106,6 @@
     padding: 30px 60px;
 }
 
-.block-padding {
-    padding: 90px 50px;
-}
-
-.contact-method {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .scroll-btn {
     padding: 15px 20px;
     border-radius: 30px;
@@ -123,6 +123,9 @@
     margin: 0 auto;
     width: 300px;
 }
+
+/* the css below shall be bootstrap default classes */
+/* we should not modify or override them! */
 
 .bg-primary {
     position: relative;
