@@ -2,6 +2,14 @@
     text-align: center;
 }
 
+hr {
+    margin: 30px auto;
+    max-width: 50px;
+    border-color: red;
+    border-width: 3px;
+    opacity: 1;
+}
+
 .avatar-container {
     display: flex;
     box-sizing: border-box;
