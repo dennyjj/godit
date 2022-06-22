@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-hr {
+hr.hr-bar {
     margin: 30px auto;
     max-width: 50px;
     border-color: red;
