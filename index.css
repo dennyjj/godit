@@ -22,6 +22,10 @@ hr.hr-bar {
     background: rgb(87, 87, 143);
 }
 
+#contact {
+    background: rgb(87, 87, 143);
+}
+
 .avatar-container {
     display: flex;
     box-sizing: border-box;
@@ -72,10 +76,7 @@ hr.hr-bar {
 }
 
 .contact-method {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    margin-top: 50px;
 }
 
 .icon {
