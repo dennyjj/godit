@@ -5,25 +5,33 @@
 hr.hr-bar {
     margin: 30px auto;
     max-width: 50px;
-    border-color: red;
+    border-color: rgb(241, 97, 67);
     border-width: 3px;
     opacity: 1;
 }
 
 #intro {
-    background: #f1f2f3;
+    background: rgb(241, 97, 67);
+}
+
+#service {
+    background: rgb(255, 255, 255);
 }
 
 #portfolio-banner {
-    background: rgb(111, 111, 165);
+    background: rgb(34, 34, 34);
 }
 
-#services {
-    background: rgb(87, 87, 143);
+#member {
+    background: rgb(241, 97, 67);
 }
 
 #contact {
-    background: rgb(87, 87, 143);
+    background: rgb(255, 255, 255);
+}
+
+#contact a {
+    color: #f05f40;
 }
 
 .avatar-container {
@@ -69,10 +77,6 @@ hr.hr-bar {
 
 .avatar-container:hover div {
     opacity: 1;
-}
-
-.block-padding {
-    padding: 90px 90px;
 }
 
 .contact-method {
@@ -126,6 +130,11 @@ hr.hr-bar {
     padding: 15px 20px;
     border-radius: 30px;
     margin-top: 20px;
+    font-weight: bold;
+}
+
+.section-padding {
+    padding: 90px 90px;
 }
 
 .service-block {
@@ -139,6 +148,7 @@ hr.hr-bar {
 .service-description {
     margin: 0 auto;
     width: 300px;
+    color: #777;
 }
 
 .font-open-sans {
