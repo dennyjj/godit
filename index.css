@@ -39,9 +39,20 @@ hr.hr-bar {
 
 /* navbar */
 
-.icon {
+#navigation {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    background: transparent;
+    transition: 0.35s ease;
+}
+
+#navigation.scrolled {
+    background-color: #ffffff;
+    color: #f05f40;
+}
+
+#navigation img {
     width: 40px;
-    height: 32px;
+    height: 40px;
 }
 
 /* home */

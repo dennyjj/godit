@@ -14,12 +14,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="index.css" />
     <title>Godit</title>
+    <link rel="icon" type="image/x-icon" href="./icons/favicon.ico">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+    <nav id="navigation" class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand text-light" href="#">Godit</a>
+            <a class="navbar-brand text-light" href="#">
+                <div class="d-flex align-items-center">
+                    <img class="mx-2" src="./icons/f9fcb8b97-104.png">
+                    <span>Godit</span>
+                </div>
+            </a>
             <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -262,7 +268,7 @@
                 For any enquiries, you are always welcome!
             </p>
             <div class="mt-5 d-flex justify-content-center">
-                <div class="me-5">
+                <div class="mx-3">
                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"
                         class="bi bi-telegram" viewBox="0 0 16 16">
                         <path
@@ -272,11 +278,8 @@
                         <a href="https://t.me/johnwinstondoe" class="text-decoration-none">@johnwinstondoe</a>
                     </div>
                 </div>
-                <div>
-                    <div class="text-center">
-                        <a href="http://www.google.com" color="dark"
-                            class="text-decoration-none text-dark">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"
+                <div class="mx-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"
                         class="bi bi-envelope-fill" viewBox="0 0 16 16">
                         <path
                             d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
@@ -285,13 +288,14 @@
                         <a href="http://www.google.com" class="text-decoration-none">contact@godit.com</a>
                     </div>
                 </div>
-            </div>
     </section>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
-    <script src="/index.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
