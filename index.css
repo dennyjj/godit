@@ -80,7 +80,7 @@ hr.hr-bar {
 /* home */
 
 #home {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('img/tech.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('img/header.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;

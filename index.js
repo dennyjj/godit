@@ -17,7 +17,7 @@ const serviceIconsObserver = new IntersectionObserver(entries => {
 const contactIconsObserver = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            entry.target.classList.add('animate__animated', 'animate__tada');
+            entry.target.classList.add('animate__animated', 'animate__tada', "text-black-50");
         }
     });
 });
