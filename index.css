@@ -33,6 +33,11 @@ hr.hr-bar {
     font-weight: bold;
 }
 
+.scroll-btn:hover {
+    animation: shakeY;
+    animation-duration: 1s;
+}
+
 .section-padding {
     padding: 90px 90px;
 }
