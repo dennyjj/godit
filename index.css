@@ -152,6 +152,12 @@ hr.hr-bar {
     background: rgb(241, 97, 67);
 }
 
+/* portfolio */
+
+#portfolio {
+    padding-top: 55px;
+}
+
 .avatar-container {
     box-sizing: border-box;
     background: #f1f2f3;
@@ -216,4 +222,24 @@ hr.hr-bar {
 
 .custom-toggler.navbar-toggler {
     border-color: rgb(255, 255, 255);
+}
+
+/* media query */ 
+
+@media only screen and (min-width: 900px) {
+    #intro p {
+      width: 40%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #intro p {
+      width: 55%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #intro p {
+      width: 75%;
+    }
 }
