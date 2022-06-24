@@ -16,6 +16,11 @@ hr.hr-bar {
 
 /* Common classes */
 
+.godit-title {
+    font-family: 'Montserrat', sans-serif; 
+    color: #f05f40;
+}
+
 .center-block {
     display: flex;
     justify-content: center;
@@ -80,7 +85,7 @@ hr.hr-bar {
 /* home */
 
 #home {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('img/tech.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('img/header.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -169,6 +174,12 @@ hr.hr-bar {
     background: rgb(241, 97, 67);
 }
 
+/* portfolio */
+
+#portfolio {
+    padding-top: 55px;
+}
+
 .avatar-container {
     box-sizing: border-box;
     background: #f1f2f3;
@@ -224,11 +235,44 @@ hr.hr-bar {
     color: #f05f40;
 }
 
-/* media query */
+#contact div p {
+    font-size: 16px;
+}
 
-@media only screen and (max-width: 840px) {
+/* the css below shall be bootstrap default classes */
+/* we should not modify or override them! */
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 255, 255);
+}
+
+/* media query */ 
+
+@media only screen and (min-width: 900px) {
     #intro p {
-        width: 70% !important;
+      width: 40%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #intro p {
+      width: 55%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #intro p {
+      width: 70%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #intro p {
+      width: 85%;
     }
 }
 
@@ -239,12 +283,6 @@ hr.hr-bar {
 
     .home-content p {
         font-size: 16px !important;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    #intro p {
-        width: auto !important;
     }
 }
 
@@ -263,8 +301,14 @@ hr.hr-bar {
     #member, #contact h3{
         font-size: 30px !important;
     }
-    #member, #contact p{
+    #member p{
         font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .section-padding {
+        padding: 40px 40px;
     }
 }
 

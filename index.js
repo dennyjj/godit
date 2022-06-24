@@ -4,6 +4,23 @@ $(window).scroll(function () {
     $('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
 });
 
+$(document).ready(function(){
+    $(window).scroll(function(){
+      var scroll = $(window).scrollTop();
+      if (scroll > 200) {
+        $(".nav-link").removeClass('text-light');
+        $(".nav-link").removeClass('border-dark');
+      } else{
+        $(".nav-link").addClass('text-dark-50');    
+        $(".navbar-toggler-icon").addClass('border-dark');    
+      }
+      if (scroll < 10) {
+        $(".nav-link").addClass('text-light');      
+        $(".navbar-toggler-icon").addClass('border-dark');      
+      }
+    });
+  });
+
 // on scroll icons animations
 
 const serviceIconsObserver = new IntersectionObserver(entries => {
