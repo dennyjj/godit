@@ -60,6 +60,15 @@ hr.hr-bar {
     height: 40px;
 }
 
+.navbar-nav a {
+    border: solid 1px transparent;
+    border-radius: 10px;
+}
+
+.navbar-nav a:hover {
+    border-color: #ffffff;
+}
+
 /* home */
 
 #home {
