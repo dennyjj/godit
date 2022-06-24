@@ -60,6 +60,23 @@ hr.hr-bar {
     height: 40px;
 }
 
+.navbar-nav a {
+    border: solid 1px transparent;
+    border-radius: 10px;
+}
+
+.navbar-nav a:hover {
+    border-color: #ffffff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 255, 255);
+}
+
 /* home */
 
 #home {
@@ -243,3 +260,66 @@ hr.hr-bar {
       width: 75%;
     }
 }
+/* media query */
+
+/* @media only screen and (max-width: 840px) {
+    #intro p {
+        width: 70% !important;
+    }
+} */
+
+@media only screen and (max-width: 720px) {
+    .home-content h1 {
+        font-size: 50px !important;
+    }
+
+    .home-content p {
+        font-size: 16px !important;
+    }
+}
+
+/* @media only screen and (max-width: 600px) {
+    #intro p {
+        width: auto !important;
+    }
+} */
+
+@media only screen and (max-width: 520px) {
+    .home-content h1 {
+        font-size: 30px !important;
+    }
+
+    .home-content p {
+        font-size: 16px !important;
+    }
+    .service-description {
+        font-size: 12px;
+        width: 95%;
+    }
+    #member, #contact h3{
+        font-size: 30px !important;
+    }
+    #member, #contact p{
+        font-size: 12px !important;
+    }
+}
+
+/* @media only screen and (max-width: 400px) {
+    .home-content h1 {
+        font-size: 30px !important;
+    }
+
+    .home-content p {
+        font-size: 16px !important;
+    }
+    .service-description {
+        font-size: 12px;
+        width: 95%;
+    }
+    #member, #contact h3{
+        font-size: 30px !important;
+    }
+    #member, #contact p{
+        font-size: 12px !important;
+    }
+} */
