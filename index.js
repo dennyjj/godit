@@ -9,6 +9,8 @@ $(document).ready(function(){
       var scroll = $(window).scrollTop();
       if (scroll > 200) {
         $(".nav-link").removeClass('text-light');
+        // $(".burger-menu").removeClass('navbar-toggler ');
+        // $(".burger-menu").removeClass('custom-toggler');
       } else{
         $(".nav-link").addClass('text-dark-50');    
       }
