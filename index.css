@@ -52,7 +52,7 @@ hr.hr-bar {
 
 #navigation.scrolled {
     background-color: #ffffff;
-    color: #f05f40;
+    color: #f05f40 !important;
 }
 
 #navigation img {
