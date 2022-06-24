@@ -16,6 +16,11 @@ hr.hr-bar {
 
 /* Common classes */
 
+.godit-title {
+    font-family: 'Montserrat', sans-serif; 
+    color: #f05f40;
+}
+
 .center-block {
     display: flex;
     justify-content: center;
@@ -230,6 +235,10 @@ hr.hr-bar {
     color: #f05f40;
 }
 
+#contact div p {
+    font-size: 16px;
+}
+
 /* the css below shall be bootstrap default classes */
 /* we should not modify or override them! */
 
@@ -257,16 +266,15 @@ hr.hr-bar {
 
 @media only screen and (max-width: 600px) {
     #intro p {
-      width: 75%;
+      width: 70%;
     }
 }
-/* media query */
 
-/* @media only screen and (max-width: 840px) {
+@media only screen and (max-width: 400px) {
     #intro p {
-        width: 70% !important;
+      width: 85%;
     }
-} */
+}
 
 @media only screen and (max-width: 720px) {
     .home-content h1 {
@@ -277,12 +285,6 @@ hr.hr-bar {
         font-size: 16px !important;
     }
 }
-
-/* @media only screen and (max-width: 600px) {
-    #intro p {
-        width: auto !important;
-    }
-} */
 
 @media only screen and (max-width: 520px) {
     .home-content h1 {
@@ -299,8 +301,14 @@ hr.hr-bar {
     #member, #contact h3{
         font-size: 30px !important;
     }
-    #member, #contact p{
+    #member p{
         font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .section-padding {
+        padding: 40px 40px;
     }
 }
 
