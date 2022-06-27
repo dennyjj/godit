@@ -1,0 +1,20 @@
+html {
+    scroll-padding-top: 72px;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 72px;
+}
+
+body {
+    position: relative;
+}
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+        ;
+    }
+}
